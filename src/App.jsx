@@ -23,11 +23,11 @@ function App() {
   }, []);
 
   return !loading ? (
-    <div className="min-h-screen flex flex-wrap content-between bg-gray-400 ">
+    <div className="min-h-screen flex flex-wrap content-between bg-gradient-to-br from-blueGray-900 to-indigo-900">
       <div className="w-full block">
         <Header />
-        <main>
-          TODO: <Outlet />
+        <main className="mt-16">
+          <Outlet />
         </main>
         <Footer />
       </div>
