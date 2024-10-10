@@ -26,8 +26,8 @@ function Login() {
   };
   return (
     <div className="flex items-center justify-center w-full">
-      <div
-        className={` mt-8 mb-6 max-w-lg bg-gray-100 rounded-xl p-10 border border-black/10`}
+      <di
+        className={` mt-8 mb-6 mx-4 max-w-lg bg-gray-100 rounded-xl p-10 border border-black/10`}
       >
         <div className="mb-2 flex justify-center">
           <span className="inline-block w-full max-w-[150px]">
@@ -75,7 +75,7 @@ function Login() {
             </Button>
           </div>
         </form>
-      </div>
+      </di>
     </div>
   );
 }
