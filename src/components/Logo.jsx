@@ -1,7 +1,10 @@
+import logo from "../assets/logo.png";
+
 function Logo() {
+  // Default values
   return (
-    <div className="text-2xl bg-gradient-to-r from-gray-400 via-orange-300 to-yellow-200 text-transparent bg-clip-text font-bold">
-      <i>Blogosphere</i>
+    <div>
+      <img src={logo} alt="Blogosphere Logo" className="w-[200px]" />
     </div>
   );
 }

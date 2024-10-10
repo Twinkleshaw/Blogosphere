@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../Logo";
+import logo1 from "../../assets/logo01.png";
 function Footer() {
   return (
     <section className="relative overflow-hidden py-10  border border-t-2 border-t-black  bg-gray-900 text-gray-300 px-16 md:px-32 ">
@@ -8,7 +8,7 @@ function Footer() {
           <div className="w-full p-6 md:w-1/2 lg:w-5/12">
             <div className="flex h-full flex-col justify-between">
               <div className="mb-4 inline-flex items-center">
-                <Logo width="100px" />
+                <img src={logo1} alt="Blogosphere Logo" className="w-[200px]" />
               </div>
               <div>
                 <p className="text-sm text-gray-600"></p>

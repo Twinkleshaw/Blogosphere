@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Container, Logo, LogoutBtn } from "../index";
+import { Container, LogoutBtn } from "../index";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-
+import logo1 from "../../assets/logo01.png";
 function Header() {
   const authStatus = useSelector((state) => state.auth.status);
   const navigate = useNavigate();
@@ -46,9 +46,9 @@ function Header() {
       <Container>
         <nav className="flex items-center justify-between">
           {/* Logo */}
-          <div className="mr-4">
+          <div className="mr-4 ">
             <Link>
-              <Logo width="70px" />
+              <img src={logo1} alt="Blogosphere Logo" className="w-[150px]" />
             </Link>
           </div>
 
